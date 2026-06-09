@@ -1,9 +1,7 @@
-/* CSS comment goes here */
-
 h1 {
-  text-align: center; color: #248232; text-transform: uppercase;
-}
-
+  text-align: center;
+   color: #CA6680; 
+   text-transform: uppercase;
 }
 
 h2 {
@@ -12,5 +10,8 @@ h2 {
 }
 
 p {
-    text-align: center; color: #402E2A; font-family: Tahoma, sans-serif; line-height: 2;
+    text-align: center;
+    color: #402E2A; 
+    font-family: Tahoma, sans-serif; 
+    line-height: 2; /* spacing might need edit */
 }
