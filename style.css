@@ -1,0 +1,16 @@
+/* CSS comment goes here */
+
+h1 {
+  text-align: center; color: #248232; text-transform: uppercase;
+}
+
+}
+
+h2 {
+    background-color: #92D5E6; 
+    font-family: Papyrus, "Brush Script MT", Monaco;
+}
+
+p {
+    text-align: center; color: #402E2A; font-family: Tahoma, sans-serif; line-height: 2;
+}
