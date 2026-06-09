@@ -10,7 +10,7 @@ h2 {
 }
 
 p {
-    text-align: center;
+    margin: 20px;
     color: #402E2A; 
     font-family: Tahoma, sans-serif; 
     line-height: 2; /* spacing might need edit */
