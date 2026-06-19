@@ -1,4 +1,4 @@
-img[src="images/livermoreVineyard.jpg"] {
+img[src="images/livermoreVineyard.png"] {
   float: right;
   margin-left: 15px;
   border: 3px solid #5c4033;
@@ -15,4 +15,14 @@ img[src="images/livermoreVineyardGraphics.png"] {
     margin-left: 15px;
     border: 10px solid #CA6680;
     border-radius: 20px;
+}
+#responsiveImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+footer {
+  background-image: url("images/symbolFooter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
