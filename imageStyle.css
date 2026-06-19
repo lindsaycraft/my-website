@@ -1,9 +1,18 @@
 img[src="images/livermoreVineyard.jpg"] {
   float: right;
+  margin-left: 15px;
+  border: 3px solid #5c4033;
+  border-radius: 10px;
 }
 img[src="images/livermoreVineyardGlow.png"] {
     float: left;
+    margin-right: 15px;
+    border: 5px solid #c07a5b;
+    border-radius: 15px;
 }
 img[src="images/livermoreVineyardGraphics.png"] {
     float: right;
+    margin-left: 15px;
+    border: 10px solid #CA6680;
+    border-radius: 20px;
 }
