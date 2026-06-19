@@ -1,1 +1,9 @@
-
+img[src="images/livermoreVineyard.jpg"] {
+  float: right;
+}
+img[src="images/livermoreVineyardGlow.png"] {
+    float: left;
+}
+img[src="images/livermoreVineyardGraphics.png"] {
+    float: right;
+}
