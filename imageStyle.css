@@ -1,10 +1,10 @@
-img[src="images/livermoreVineyard.png"] {
+img[src="images/livermoreVineyardSquare.png"] {
   float: right;
   margin-left: 15px;
   border: 3px solid #5c4033;
   border-radius: 10px;
 }
-img[src="images/livermoreVineyardGlow.png"] {
+img[src="images/livermoreVineyardGlowFilter.png"] {
     float: left;
     margin-right: 15px;
     border: 5px solid #c07a5b;
