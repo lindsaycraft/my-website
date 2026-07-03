@@ -6,13 +6,13 @@ h1 {
 
 h2 {
     background-color: #6D8CA5; 
-    font-family: Monaco;
+    font-family: Monaco, Courier, monospace;
 }
 
 p {
     padding: 10px;
     color: #402E2A; 
-    font-family: Tahoma, Verdana, sans-serif
+    font-family: Tahoma, Verdana, sans-serif;
     line-height: 2; /* spacing might need edit */
 }
 .winery-grid {
@@ -65,9 +65,78 @@ p {
   display: flex;
   align-items: center;
   padding: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Tahoma, Verdana, sans-serif
 }
 
 .grid-desc { grid-area: desc; }
 .grid-varietals { grid-area: varietals; }
 .grid-food { grid-area: food; }
+
+.restaurant-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #402E2A;
+  margin: 20px 0;
+}
+
+.restaurant-table thead th {
+  background-color: #5c1a1a;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.restaurant-table tbody td {
+  background-color: #ede5dd;
+  padding: 12px;
+  border: 1px solid #D9B8A3;
+  vertical-align: middle;
+}
+
+.restaurant-table tbody td a {
+  color: #5c1a1a;
+}
+
+.restaurant-table .location-cell {
+  background-color: #D9B8A3;
+  color: #5c1a1a;
+  font-weight: bold;
+  text-align: center;
+}
+
+.restaurant-table tfoot td {
+  background-color: #7A7F5A;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+.restaurant-table tfoot a {
+  color: #ede5dd;
+}
+
+.coffee-ranking {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #402E2A;
+  list-style-type: upper-roman;
+  padding-left: 2rem;
+}
+
+.coffee-ranking li {
+  margin-bottom: 12px;
+}
+
+.coffee-ranking li::marker {
+  color: #5c1a1a;
+  font-weight: bold;
+}
+
+.why-grounded {
+  list-style-type: "☕ ";
+  color: #7A7F5A;
+  margin-top: 8px;
+}
