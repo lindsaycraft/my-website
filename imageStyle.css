@@ -20,6 +20,7 @@ img[src="images/livermoreVineyardGraphics.png"] {
   max-width: 100%;
   height: auto;
   display: block;
+  float: none;
 }
 footer {
   background-image: url("images/symbolFooter.png");

@@ -232,7 +232,7 @@ p {
 .form-buttons button:hover {
   opacity: 0.85;
 }
-/* font fix */
+/* font fix
 .welcome-form-section,
 .welcome-form-section p,
 .welcome-form-section label,
@@ -241,3 +241,4 @@ p {
 .welcome-form-section button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+*/
