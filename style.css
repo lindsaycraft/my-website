@@ -1,8 +1,12 @@
 /* Text Styling */
+body {font-family: Tahoma, Verdana, sans-serif;
+}
+
 h1 {
   text-align: center;
    color: #CA6680; 
    text-transform: uppercase;
+   font-family: Tahoma, Verdana, sans-serif
 }
 
 h2 {
@@ -227,4 +231,13 @@ p {
 
 .form-buttons button:hover {
   opacity: 0.85;
+}
+/* font fix */
+.welcome-form-section,
+.welcome-form-section p,
+.welcome-form-section label,
+.welcome-form-section legend,
+.welcome-form-section input,
+.welcome-form-section button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
