@@ -158,10 +158,53 @@
         <h2>Go out and Explore!</h2>
         <p>At the end of the day, the Tri-Valley has far more to offer than it gets credit for, and most of it is just waiting for someone curious enough to find it. Between the coffee shops, the restaurants, the bars, the wineries, and the steady stream of local events, there is genuinely no excuse to spend another weekend doing nothing. The people who end up loving it here are the ones who treat it less like a layover and more like an actual place to build a life, even if it is temporary. Every neighborhood has its own rhythm, and once you find the spots that feel like yours, the whole area starts to open up in a way it never does from the outside. This is not about settling for less than the city — it is about realizing how much is already right here. So get out, try the place you have been putting off, strike up a conversation at the bar, sign up for the winery event that sounded a little out of your comfort zone. The Tri-Valley rewards people who show up, and showing up is the easiest first step you can take. Off the 680 is just the start — the rest is up to you to go find.</p>
         <img src="images/livermoreVineyardSquare.png" alt="A vineyard on cloudy day" style="width:800px" id="responsiveImg">
+        <section class="welcome-form-section">
+                <h2>New Around Here? Let's Connect!</h2>
+                <p>Tell us a little about yourself! Consider this our welcome to the community.</p>
+                <form action="#" method="post" class="welcome-form">
+                        <!-- Q1 -->
+                        <label for="username">What should we call you?</label>
+                        <input type="text" id="username" name="username" placeholder="First name" required>
+                        <!-- Q2 -->
+                        <fieldset>
+                                <legend>Where in the Tri-Valley are you closest to?</legend>
+                                <label for="hometown">Type or pick a city</label>
+                                <input list="tri-valley-cities" id="hometown" name="hometown" placeholder="Start typing...">
+                                <datalist id="tri-valley-cities">
+                                        <option value="Livermore">
+                                        <option value="Pleasanton">
+                                        <option value="Dublin">
+                                        <option value="San Ramon">
+                                        <option value="Danville">
+                                </datalist>
+                        </fieldset>
+                        <!-- Q3 -->
+                        <fieldset>
+                                <legend>What are you most excited to explore?</legend>
+                                <label><input type="checkbox" name="interests" value="coffee"> Coffee Shops</label>
+                                <label><input type="checkbox" name="interests" value="restaurants"> Restaurants</label>
+                                <label><input type="checkbox" name="interests" value="nightlife"> Nightlife</label>
+                                <label><input type="checkbox" name="interests" value="wineries"> Wineries</label>
+                                <label><input type="checkbox" name="interests" value="events"> Events</label>
+                        </fieldset>
+                        <!-- Q4 -->
+                        <label for="move-date">When did you move to (or start exploring) the Tri-Valley?</label>
+                        <input type="date" id="move-date" name="move-date">
+                        <!-- Q5 -->
+                        <label for="wine-mood">Pick a wine color that matches your mood today</label>
+                        <input type="color" id="wine-mood" name="wine-mood" value="#5c1a1a">
+                        <div class="form-buttons">
+                                <button type="submit">Send It Over</button>
+                                <button type="reset">Clear Form</button>
+                        </div>
+                </form>
+        </section>
+
+
 <footer style="text-align:center;">
         <p style="text-align:center;"><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">News</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
         <br><br><br>
         <p style="text-align:center;">Copyright &copy; - All rights reserved</p>
-        </footer>
+</footer>
 </body>
 </html>

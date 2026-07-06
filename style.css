@@ -147,3 +147,84 @@ p {
   background-color: #D9B8A3;
   border-radius: 4px;
 }
+
+/* Form */
+.welcome-form-section {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ede5dd;
+  border: 2px solid #5c1a1a;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #402E2A;
+}
+
+.welcome-form-section h2 {
+  background-color: transparent;
+  color: #5c1a1a;
+  text-align: center;
+}
+
+.welcome-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.welcome-form input[type="text"],
+.welcome-form input[type="date"],
+.welcome-form input[list] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #D9B8A3;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.welcome-form fieldset {
+  margin-top: 15px;
+  border: 1px solid #7A7F5A;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.welcome-form legend {
+  color: #5c1a1a;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+.welcome-form input:focus {
+  outline: 2px solid #5c1a1a;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-family: Tahoma, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #5c1a1a;
+  color: white;
+}
+
+.form-buttons button[type="reset"] {
+  background-color: #D9B8A3;
+  color: #402E2A;
+}
+
+.form-buttons button:hover {
+  opacity: 0.85;
+}
