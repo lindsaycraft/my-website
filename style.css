@@ -1,6 +1,7 @@
+/* Text Styling */
 h1 {
   text-align: center;
-   color: #7A7F5A; 
+   color: #CA6680; 
    text-transform: uppercase;
 }
 
@@ -15,6 +16,8 @@ p {
     font-family: Tahoma, Verdana, sans-serif;
     line-height: 2; /* spacing might need edit */
 }
+
+/* Grid */
 .winery-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1.3fr 1fr;
@@ -72,6 +75,7 @@ p {
 .grid-varietals { grid-area: varietals; }
 .grid-food { grid-area: food; }
 
+/* Restaurant Table */
 .restaurant-table {
   width: 100%;
   border-collapse: collapse;
@@ -113,4 +117,33 @@ p {
   padding: 10px;
   font-size: 0.85rem;
   border: 1px solid #D9B8A3;
+}
+/* Nav Bar */
+.site-nav {
+  background-color: #5c1a1a;
+  padding: 15px 0;
+}
+
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 8px 12px;
+}
+
+.site-nav a:hover {
+  color: #5c1a1a;
+  background-color: #D9B8A3;
+  border-radius: 4px;
 }
