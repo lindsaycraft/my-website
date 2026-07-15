@@ -19,7 +19,7 @@ for (var i = 0; i < json.length; i++) {
  
  tableCode += '</tbody><tfoot><tr><td colspan="4">Source: Livermore Valley Winegrowers Association</td></tr></tfoot></table>';
  
- document.getElementById('wineries').innerHTML = tableCode;
+ document.getElementById('wineriesTable').innerHTML = tableCode;
  
  })
  
