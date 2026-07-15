@@ -1,1 +1,20 @@
-
+[
+  {
+    "name": "Wente Vineyards",
+    "location": "Livermore, CA",
+    "yearEstablished": "1883",
+    "signatureWine": "Chardonnay"
+  },
+  {
+    "name": "Concannon Vineyard",
+    "location": "Livermore, CA",
+    "yearEstablished": "1883",
+    "signatureWine": "Petite Sirah"
+  },
+  {
+    "name": "Murrieta's Well",
+    "location": "Livermore, CA",
+    "yearEstablished": "1884",
+    "signatureWine": "The Spur (Red Blend)"
+  }
+]
